@@ -1,0 +1,24 @@
+[debug] Created transactional ClassFileManager with tempDir = /home/ekmz/Documentos/SparkScala19/target/scala-2.11/classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	MovieLensALS$$anonfun$5.class
+[debug] 	MovieLensALS$$anonfun$2.class
+[debug] 	MovieLensALS$$anonfun$11.class
+[debug] 	MovieLensALS$$anonfun$8.class
+[debug] 	MovieLensALS$$anonfun$10.class
+[debug] 	MovieLensALS$$anonfun$computeRmse$2.class
+[debug] 	MovieLensALS$$anonfun$6.class
+[debug] 	MovieLensALS$$anonfun$7.class
+[debug] 	MovieLensALS$$anonfun$3.class
+[debug] 	MovieLensALS$$anonfun$12.class
+[debug] 	MovieLensALS$$anonfun$9.class
+[debug] 	MovieLensALS$$anonfun$1.class
+[debug] 	MovieLensALS$$anonfun$computeRmse$1.class
+[debug] 	MovieLensALS$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class
+[debug] 	MovieLensALS$$anonfun$4.class
+[debug] 	MovieLensALS$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVD$sp$1.class
+[debug] 	MovieLensALS.class
+[debug] 	MovieLensALS$.class
+[debug] 	MovieLensALS$$anonfun$main$1.class
+[debug] Removing the temporary directory used for backing up class files: /home/ekmz/Documentos/SparkScala19/target/scala-2.11/classes.bak

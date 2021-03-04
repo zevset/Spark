@@ -1,0 +1,50 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec({file:/home/ekmz/Documentos/SparkScala17/}sparkscala17/ testOnly SampleRDDTest, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ekmz/Documentos/SparkScala17/target/scala-2.11/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.11' for Scala 2.11.12. Compiling...[0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 11.75s.[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ekmz/Documentos/SparkScala17/target/scala-2.11/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSampleRDDTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- really simple transformation *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  org.apache.spark.SparkException: A master URL must be set in your configuration[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.SparkContext.<init>(SparkContext.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at SampleRDDTest$$anonfun$1.apply$mcV$sp(SampleRDDTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at SampleRDDTest$$anonfun$1.apply(SampleRDDTest.scala:8)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at SampleRDDTest$$anonfun$1.apply(SampleRDDTest.scala:8)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:166)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- really simple transformation with rdd - rdd comparision *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  org.apache.spark.SparkException: A master URL must be set in your configuration[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.SparkContext.<init>(SparkContext.scala:401)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at SampleRDDTest$$anonfun$2.apply$mcV$sp(SampleRDDTest.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at SampleRDDTest$$anonfun$2.apply(SampleRDDTest.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at SampleRDDTest$$anonfun$2.apply(SampleRDDTest.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:166)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaCheck[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 0, Failed 0, Errors 0, Passed 0[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 930 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 2, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 2, Failed 2, Errors 0, Passed 0[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	SampleRDDTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 29 s, completed 1 mar 2021 16:54:13[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

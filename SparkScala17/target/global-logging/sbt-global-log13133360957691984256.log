@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec({file:/home/ekmz/Documentos/SparkScala17/}sparkscala17/ testOnly SampleRDDTest, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ekmz/Documentos/SparkScala17/target/scala-2.11/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSampleRDDTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- really simple transformation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- really simple transformation with rdd - rdd comparision[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaCheck[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 0, Failed 0, Errors 0, Passed 0[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 629 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 2, Failed 0, Errors 0, Passed 2[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 10 s, completed 3 mar 2021 11:51:57[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

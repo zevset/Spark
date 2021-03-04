@@ -1,0 +1,88 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec({file:/home/ekmz/Documentos/SparkScala17/}sparkscala17/ testOnly SampleRDDTest, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ekmz/Documentos/SparkScala17/target/scala-2.11/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ekmz/Documentos/SparkScala17/target/scala-2.11/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSampleRDDTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- really simple transformation *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  org.apache.spark.SparkException: Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31morg.apache.spark.SparkContext.<init>(SparkContext.scala:82)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mcom.holdenkarau.spark.testing.SharedSparkContext$class.beforeAll(SharedSparkContext.scala:43)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mSampleRDDTest.beforeAll(SampleRDDTest.scala:5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31morg.scalatest.BeforeAndAfterAll$class.beforeAll(BeforeAndAfterAll.scala:187)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mSampleRDDTest.beforeAll(SampleRDDTest.scala:5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31morg.scalatest.BeforeAndAfterAll$class.run(BeforeAndAfterAll.scala:253)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mSampleRDDTest.run(SampleRDDTest.scala:5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31morg.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:462)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31morg.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:671)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestRunner.runTest$1(TestFramework.scala:139)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestRunner.run(TestFramework.scala:154)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:317)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:277)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestFunction.apply(TestFramework.scala:329)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.Tests$.$anonfun$toTask$1(Tests.scala:422)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.std.Transform$$anon$4.work(Transform.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2257)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2239)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Option.foreach(Option.scala:257)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.SparkContext$.assertNoOtherContextIsRunning(SparkContext.scala:2239)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.SparkContext$.setActiveContext(SparkContext.scala:2325)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.SparkContext.<init>(SparkContext.scala:2197)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at SampleRDDTest$$anonfun$1.apply$mcV$sp(SampleRDDTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at SampleRDDTest$$anonfun$1.apply(SampleRDDTest.scala:9)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at SampleRDDTest$$anonfun$1.apply(SampleRDDTest.scala:9)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- really simple transformation with rdd - rdd comparision *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  org.apache.spark.SparkException: Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31morg.apache.spark.SparkContext.<init>(SparkContext.scala:82)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mcom.holdenkarau.spark.testing.SharedSparkContext$class.beforeAll(SharedSparkContext.scala:43)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mSampleRDDTest.beforeAll(SampleRDDTest.scala:5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31morg.scalatest.BeforeAndAfterAll$class.beforeAll(BeforeAndAfterAll.scala:187)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mSampleRDDTest.beforeAll(SampleRDDTest.scala:5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31morg.scalatest.BeforeAndAfterAll$class.run(BeforeAndAfterAll.scala:253)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mSampleRDDTest.run(SampleRDDTest.scala:5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31morg.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:462)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31morg.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:671)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestRunner.runTest$1(TestFramework.scala:139)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestRunner.run(TestFramework.scala:154)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:317)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:277)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.TestFunction.apply(TestFramework.scala:329)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.Tests$.$anonfun$toTask$1(Tests.scala:422)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.std.Transform$$anon$4.work(Transform.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2257)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2239)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Option.foreach(Option.scala:257)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.SparkContext$.assertNoOtherContextIsRunning(SparkContext.scala:2239)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.SparkContext$.markPartiallyConstructed(SparkContext.scala:2312)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.SparkContext.<init>(SparkContext.scala:91)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at SampleRDDTest$$anonfun$2.apply$mcV$sp(SampleRDDTest.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at SampleRDDTest$$anonfun$2.apply(SampleRDDTest.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at SampleRDDTest$$anonfun$2.apply(SampleRDDTest.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaCheck[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 0, Failed 0, Errors 0, Passed 0[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 minute, 18 seconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 2, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 2, Failed 2, Errors 0, Passed 0[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	SampleRDDTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 83 s (01:23), completed 1 mar 2021 16:58:08[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

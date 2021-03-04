@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec({file:/home/ekmz/Documentos/SparkScala17/}sparkscala17/ testOnly SampleRDDTest, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/ekmz/Documentos/SparkScala17/target/scala-2.11/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSampleRDDTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- really simple transformation *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List("Hi"), List("hi", "holden"), List("bye")) did not equal List(List("hi"), List("hi", "holden"), List("bye")) (SampleRDDTest.scala:12)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- really simple transformation with rdd - rdd comparision *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  None did not equal Some((List(Hi),1,0)) (SampleRDDTest.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaCheck[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 0, Failed 0, Errors 0, Passed 0[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 4 seconds, 347 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 2, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 2, Failed 2, Errors 0, Passed 0[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	SampleRDDTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 14 s, completed 3 mar 2021 11:50:09[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

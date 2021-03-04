@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Mar 03 12:00:44 CST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0177-f93f-cf49-00000154fa90 
+on database directory /tmp/spark-1f57f5ed-2a34-4db5-91a8-f8d84ba5d9a8/metastore with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@27c170f0 
+Loaded from file:/home/ekmz/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/derby/derby/10.10.2.0/derby-10.10.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.10+9-Ubuntu-0ubuntu1.20.04
+user.dir=/home/ekmz/Documentos/SparkScala17
+os.name=Linux
+os.arch=amd64
+os.version=5.8.0-44-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
